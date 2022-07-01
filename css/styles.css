@@ -1,0 +1,20 @@
+:root{
+    /*fonts*/
+    --main-font: 'Roboto Regular', sans-serif;
+    --secondary-font: 'Roboto Bold',sans-serig;
+
+    /*text colors*/
+--main-txt-cl: #212121;
+--secondary-txt-cl:#757575;
+--accent-txt-cl:#2196F3;
+
+    /*background colors*/
+    --dark-bg-cl:#2F303A;
+    --light-bg-cl: #FFFFFF;
+    /*others*/
+}
+
+body{
+    color:var(--main-txt-cl) ;
+    font-family: var(--main-font);
+}

@@ -18,3 +18,82 @@ body{
     color:var(--main-txt-cl) ;
     font-family: var(--main-font);
 }
+
+/*reset styles*/
+.link{
+    text-decoration: none;
+    color: currentColor;
+}
+.list{
+    list-style: none;
+}
+/*header section*/
+.logo{
+    color: var(--accent-txt-cl);
+}
+.header-logo{
+    color: #000000;
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+}
+.header {
+    background-color: var(--light-bg-cl);
+}
+
+.header-link{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16 / 12);
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: var(--accent-txt-cl);
+}
+
+.header-link-current{
+    color: var(--accent-txt-cl);
+}
+
+.header-communication{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: (16 / 12);
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+
+.header-communication:hover,
+.header-communication:focus{
+    color: var(--accent-txt-cl);
+}
+
+/*First section*/
+.title{
+    background-color: #2F303A;
+   
+}
+.uppertitle{
+    font-weight: 900;
+        font-size: 44px;
+        line-height: (60 / 44);
+        font-family: Roboto Bold;
+        color: #FFFFFF;
+        text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            
+}
+.btn{
+    font-weight: 700;
+        font-size: 16px;
+        line-height: (calc30 / 16);
+        color: #FFFFFF;
+        letter-spacing: 0.06em;
+        background-color: #2196F3;
+        cursor: pointer;
+        font-family: inherit;
+}

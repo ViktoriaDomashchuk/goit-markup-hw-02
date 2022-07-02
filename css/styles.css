@@ -1,7 +1,7 @@
 :root{
     /*fonts*/
     --main-font: 'Roboto Regular', sans-serif;
-    --secondary-font: 'Roboto Bold',sans-serif;
+    --secondary-font: 'Roboto Bold', sans-serif;
 
     /*text colors*/
 --main-txt-cl: #212121;
@@ -97,11 +97,11 @@ body{
         background-color:var(--accent-txt-cl);
         cursor: pointer;
         font-family: inherit;
+        background-color: var(--accent-txt-cl);
 }
 .btn:hover,
 .btn:focus{
-    background-color: rgba(0, 0, 0, 0.15);
-}
+    background-color: #0b78d0;
 /*main*/
 .heading{
     font-weight: 700;

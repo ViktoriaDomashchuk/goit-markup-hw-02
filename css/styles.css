@@ -81,7 +81,7 @@ body{
     font-weight: 900;
         font-size: 44px;
         line-height: calc(60 / 44);
-        font-family: Roboto Bold;
+        font-family: Roboto Bold, serif;
         color: #FFFFFF;
         text-align: center;
             letter-spacing: 0.06em;
@@ -94,9 +94,65 @@ body{
         line-height: calc(30 / 16);
         color: #FFFFFF;
         letter-spacing: 0.06em;
-        background-color: #2196F3;
+        background-color:var(--accent-txt-cl);
         cursor: pointer;
         font-family: inherit;
+}
+.btn:hover,
+.btn:focus{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+/*main*/
+.heading{
+    font-weight: 700;
+        font-size: 36px;
+        line-height:calc(42 / 36);
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+/*first section*/
+
+.captiom{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:var(--main-txt-cl);
+}
+.caption-txt{
+    font-weight: 400;
+        font-size: 14px;
+        line-height:calc(24 / 14);
+        letter-spacing: 0.03em;
+        color: var(--secondary-txt-cl);
+}
+/*second section*/
+.list-pic{
+    width: 370px;
+}
+
+/*third section*/
+.section-3{
+    background-color: #F5F4FA;
+}
+.list-images{
+    width: 270px;
+}
+.list-title{
+    font-weight: 500;
+        font-size: 16px;
+        line-height:calc(19 / 16);
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.list-txt{
+    font-weight: 400;
+        font-size: 16px;
+        line-height:calc(19 / 16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
 /*footer*/
 .footer-logo{
@@ -126,4 +182,8 @@ body{
 .footer-communication:hover,
 .footer-communication:focus{
     color: #FFFFFF;
+}
+/*Portfolio*/
+.section-portfolio{
+    background-color: #EEEEEE;
 }

@@ -187,3 +187,19 @@ body{
 .section-portfolio{
     background-color: #EEEEEE;
 }
+.list-img{
+    width: 370px;
+}
+.list-heading{
+    font-weight: 700;
+        font-size: 18px;
+        line-height:calc(36 / 18);
+        letter-spacing: 0.06em;
+}
+.list-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height:calc(30 / 16);
+        letter-spacing: 0.03em;
+        color: #757575;
+}

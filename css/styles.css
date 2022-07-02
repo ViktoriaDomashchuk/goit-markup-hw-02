@@ -27,6 +27,8 @@ body{
 .list{
     list-style: none;
 }
+
+/*Studio*/
 /*header section*/
 .logo{
     color: var(--accent-txt-cl);
@@ -72,11 +74,12 @@ body{
     color: var(--accent-txt-cl);
 }
 
-/*First section*/
+/*Main section*/
 .title{
     background-color: var(--dark-bg-cl);
    
 }
+
 .uppertitle{
     font-weight: 900;
         font-size: 44px;
@@ -87,6 +90,7 @@ body{
             text-transform: uppercase;
             
 }
+
 .btn{
     font-weight: 700;
         font-size: 16px;
@@ -98,45 +102,47 @@ body{
         font-family: inherit;
         background-color: var(--accent-txt-cl);
 }
+
 .btn:hover,
 .btn:focus{
 background-color:#188CE8;}
-/*main*/
-.heading{
+/*Особенности*/
+.captiom {
     font-weight: 700;
-        font-size: 36px;
-        line-height:calc(42 / 36);
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-txt-cl);
 }
-/*first section*/
 
-.captiom{
+.caption-txt {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-cl);
+}
+.heading {
     font-weight: 700;
-        font-size: 14px;
-        line-height: calc(16 / 14);
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color:var(--main-txt-cl);
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
 }
-.caption-txt{
-        font-size: 14px;
-        line-height:calc(24 / 14);
-        letter-spacing: 0.03em;
-        color: var(--secondary-txt-cl);
-}
-/*second section*/
+/*Чем мы занимаемся*/
 .list-pic{
     width: 370px;
 }
 
-/*third section*/
+/*наша команда*/
 .section-3{
     background-color: #F5F4FA;
 }
+
 .list-images{
     width: 270px;
 }
+
 .list-title{
     font-weight: 500;
         font-size: 16px;
@@ -144,6 +150,7 @@ background-color:#188CE8;}
         text-align: center;
         letter-spacing: 0.03em;
 }
+
 .list-txt{
         font-size: 16px;
         line-height:calc(19 / 16);
@@ -151,38 +158,14 @@ background-color:#188CE8;}
         letter-spacing: 0.03em;
         color: var(--secondary-txt-cl);
 }
-/*footer*/
-.footer-logo{
-    font-weight: 700;
-        font-size: 26px;
-        line-height: calc(31 / 26);
-        color: #FFFFFF;
-        font-family: 'Raleway';
-}
-.footer{
-    background-color:  #2F303A;
-}
-.address-txt{
-        font-size: 14px;
-        line-height: calc(24 / 14);
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
-        
-}
-.footer-communication{
-        font-size: 14px;
-        line-height: calc(24 / 14);
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-}
-.footer-communication:hover,
-.footer-communication:focus{
-    color: #FFFFFF;
-}
+
+
+
 /*Portfolio*/
 .section-portfolio{
     background-color: #EEEEEE;
 }
+/*Filters*/
 .list-btn {
     background-color: #F5F4FA;
     font-weight: 500;
@@ -192,24 +175,62 @@ background-color:#188CE8;}
         letter-spacing: 0.03em;
         cursor: pointer;
 }
+
 .button-current{
     background-color: var(--accent-txt-cl);
     color: #FFFFFF;
 }
-
+/*projects*/
 .list-img{
     width: 370px;
 }
+
 .list-heading{
     font-weight: 700;
         font-size: 18px;
         line-height:calc(36 / 18);
         letter-spacing: 0.06em;
 }
+
 .list-text{
     
         font-size: 16px;
         line-height:calc(30 / 16);
         letter-spacing: 0.03em;
         color:var(--secondary-txt-cl);
+}
+
+
+
+/*footer*/
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    color: #FFFFFF;
+    font-family: 'Raleway';
+}
+
+.address-txt {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+.footer-communication {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-communication:hover,
+.footer-communication:focus {
+    color: #FFFFFF;
 }

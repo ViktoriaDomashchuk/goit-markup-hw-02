@@ -7,6 +7,7 @@
 --main-txt-cl: #212121;
 --secondary-txt-cl:#757575;
 --accent-txt-cl:#2196F3;
+--txt-color: #FFFFFF;
 
     /*background colors*/
     --dark-bg-cl:#2F303A;
@@ -37,7 +38,7 @@ body{
     color: #000000;
     font-weight: 700;
         font-size: 26px;
-        line-height: calc(31 / 26);
+        line-height: 1.19em ;
         font-family: 'Raleway';
 }
 .header {
@@ -47,7 +48,7 @@ body{
 .header-link-current{
     font-weight: 500;
         font-size: 14px;
-        line-height: calc(16 / 12);
+        line-height: 1.33em;
         letter-spacing: 0.02em;
         color: var(--main-txt-cl);
 }
@@ -67,7 +68,7 @@ body{
 .header-communication{
     font-weight: 500;
         font-size: 14px;
-        line-height:calc(16 / 12);
+        line-height: height 1.33em;;
         letter-spacing: 0.02em;
         color: var(--secondary-txt-cl);
 }
@@ -86,19 +87,19 @@ body{
 .uppertitle{
     font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.36em;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: var(--txt-color);
            
 }
 
 .btn{
     font-weight: 700;
         font-size: 16px;
-        line-height: calc(30 / 16);
-        color: #FFFFFF;
+        line-height: 1.875em ;
+        color: var(--txt-color);
         letter-spacing: 0.06em;
         background-color:var(--accent-txt-cl);
         cursor: pointer;
@@ -114,7 +115,7 @@ background-color:#188CE8;}
 .caption{
             font-weight: 700;
                 font-size: 14px;
-                line-height: 16px;
+                line-height: 1.14em ;
                 letter-spacing: 0.03em;
                 text-transform: uppercase;
                 color: var(--main-txt-cl);
@@ -122,14 +123,14 @@ background-color:#188CE8;}
 
 .caption-txt {
     font-size: 14px;
-    line-height: calc(24 / 14);
+    line-height: 1.71em ;
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
 }
 .heading {
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(42 / 36);
+    line-height: 1.16em;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -140,7 +141,7 @@ background-color:#188CE8;}
 
 /*наша команда*/
 .section-3{
-    background-color: #F5F4FA;
+    background-color:  #F5F4FA;
 }
 
 .list-images{
@@ -150,14 +151,14 @@ background-color:#188CE8;}
 .list-title{
     font-weight: 500;
         font-size: 16px;
-        line-height:calc(19 / 16);
+        line-height:1.18em;
         text-align: center;
         letter-spacing: 0.03em;
 }
 
 .list-txt{
         font-size: 16px;
-        line-height:calc(19 / 16);
+        line-height:1.18em;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--secondary-txt-cl);
@@ -174,7 +175,7 @@ background-color:#188CE8;}
     background-color: #F5F4FA;
     font-weight: 500;
         font-size: 16px;
-        line-height:calc(26 / 16);
+        line-height:1.16em;
         text-align: center;
         letter-spacing: 0.03em;
         cursor: pointer;
@@ -183,13 +184,13 @@ background-color:#188CE8;}
 
 .button-current{
     background-color: var(--accent-txt-cl);
-    color: #FFFFFF;
+    color: var(--txt-color);
 }
 
 .list-btn-current:hover,
 .list-btn-current:focus{
     background-color: var(--accent-txt-cl);
-    color: #FFFFFF;
+    color: var(--txt-color);
 }
 /*projects*/
 .list-img{
@@ -199,14 +200,13 @@ background-color:#188CE8;}
 .list-heading{
     font-weight: 700;
         font-size: 18px;
-        line-height:calc(36 / 18);
+        line-height:2em;
         letter-spacing: 0.06em;
 }
 
-.list-text{
-    
+.list-text{    
         font-size: 16px;
-        line-height:calc(30 / 16);
+        line-height:1.875em;
         letter-spacing: 0.03em;
         color:var(--secondary-txt-cl);
 }
@@ -215,29 +215,29 @@ background-color:#188CE8;}
 
 /*footer*/
 .footer {
-    background-color: #2F303A;
+    background-color: var(--dark-bg-cl);
 }
 
 .footer-logo {
     font-weight: 700;
     font-size: 26px;
-    line-height: calc(31 / 26);
-    color: #FFFFFF;
+    line-height: 1.19em;
+    color: var(--txt-color);
     font-family: 'Raleway';
 }
 
 .address-txt {
     font-size: 14px;
-    line-height: calc(24 / 14);
+    line-height: 1.71em;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color:var(--txt-color);
     font-style: normal;
 
 }
 
 .footer-communication {
     font-size: 14px;
-    line-height: calc(24 / 14);
+    line-height: 1.71em;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -245,5 +245,5 @@ background-color:#188CE8;}
 
 .footer-communication:hover,
 .footer-communication:focus {
-    color: #FFFFFF;
+    color: var(--txt-color);
 }

@@ -104,6 +104,7 @@ body{
         cursor: pointer;
         font-family: inherit;
         background-color: var(--accent-txt-cl);
+        border: none;
 }
 
 .btn:hover,
@@ -177,6 +178,7 @@ background-color:#188CE8;}
         text-align: center;
         letter-spacing: 0.03em;
         cursor: pointer;
+        border: none;
 }
 
 .button-current{

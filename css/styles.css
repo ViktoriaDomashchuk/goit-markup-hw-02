@@ -44,7 +44,7 @@ body{
     background-color: var(--light-bg-cl);
 }
 
-.header-link{
+.header-link-current{
     font-weight: 500;
         font-size: 14px;
         line-height: calc(16 / 12);
@@ -86,12 +86,12 @@ body{
 .uppertitle{
     font-weight: 900;
         font-size: 44px;
-        line-height: calc(60 / 44);
-        color: var(--light-bg-cl);
+        line-height: 60px;
         text-align: center;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-            
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+           
 }
 
 .btn{
@@ -110,13 +110,13 @@ body{
 .btn:focus{
 background-color:#188CE8;}
 /*Особенности*/
-.captiom {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--main-txt-cl);
+.caption{
+            font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color: var(--main-txt-cl);
 }
 
 .caption-txt {

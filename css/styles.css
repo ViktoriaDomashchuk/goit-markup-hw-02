@@ -183,6 +183,12 @@ background-color:#188CE8;}
     background-color: var(--accent-txt-cl);
     color: #FFFFFF;
 }
+
+.list-btn-current:hover,
+.list-btn-current:focus{
+    background-color: var(--accent-txt-cl);
+    color: #FFFFFF;
+}
 /*projects*/
 .list-img{
     width: 370px;

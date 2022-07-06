@@ -1,8 +1,4 @@
 :root{
-    /*fonts*/
-    --main-font: 'Roboto Regular', sans-serif;
-    --secondary-font: 'Roboto Bold', sans-serif;
-
     /*text colors*/
 --main-txt-cl: #212121;
 --secondary-txt-cl:#757575;
@@ -166,10 +162,6 @@ background-color:#188CE8;}
 
 
 
-/*Portfolio*/
-.section-portfolio{
-    background-color: #EEEEEE;
-}
 /*Filters*/
 .list-btn {
     background-color: #F5F4FA;
